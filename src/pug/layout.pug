@@ -1,0 +1,20 @@
+doctype html
+html(lang='en')
+	head
+		title Simple pjax
+
+	link(rel='stylesheet', href='styles/pjax.css')
+
+	body
+		.pjax-bar
+			.progress
+
+		.nav
+			block nav
+		
+		.main#main
+			block main
+			
+	script(src='http://code.jquery.com/jquery-latest.min.js', type='text/javascript')
+	script(src='scripts/pjax.js')
+	script(src='scripts/script.js')

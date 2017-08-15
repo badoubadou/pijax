@@ -1,0 +1,1 @@
+.pjax-bar{height:0;width:100%;position:fixed;top:0;left:0;background:0 0;z-index:1000;transition:height;transition-duration:.1s}.pjax-bar .progress{height:100%;width:0;background:#000;transition:width;transition-duration:3s}.pjax-bar.show-progress{height:5px}.pjax-bar.show-progress .progress{width:100%}

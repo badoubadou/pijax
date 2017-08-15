@@ -1,0 +1,21 @@
+.pjax-bar
+	height 0
+	width 100%
+	position fixed
+	top 0
+	left 0
+	background $primary-color
+	z-index 1000
+	transition height 
+	transition-duration .1s 
+	.progress
+		height 100%
+		width 0px
+		background black
+		transition width 
+		transition-duration 3s 
+		
+	&.show-progress
+		height 5px
+		.progress
+			width 100%
